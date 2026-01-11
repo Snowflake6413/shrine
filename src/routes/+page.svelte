@@ -1,6 +1,5 @@
+<div class="all">
 <title>Shrine</title>
-<body>
-<div class=info>
 <h1>Shrine</h1>
 <!---TBA because we dont know.....goog-->
 <p>Make and code a project about your favorite fictional character, get a grant to buy merch of your character!</p>
@@ -10,30 +9,29 @@
     <button>RSVP!</button>
 </a>
  </div>
-</div>
 
 <hr>
 
-<div class=faq>
+<div class="faq">
 <details>
     <summary>Q: So, what is Shrine?</summary>
-    <p>A: Shrine is a YSWS where you build a project about your favorite fictional character! It could be anything! Like, a website about your character, a Visual Novel with RenPy, anything related to that character! After you submit and we check your project, you'll recieve a grant to go buy merch of your favorite character!</p>
+    <p>A: Shrine is a YSWS where you build a project about your favorite fictional character! It could be anything! Like, a website about your character, a Visual Novel with RenPy, anything related to that character! After you submit and we check your project, you'll receive a grant to go buy merch of your favorite character!</p>
 </details>
 <details>
     <summary>Q: How do I join?</summary>
-    <p>Join us at #shrine and make sure you RSVP on the form above!</p>
+    <p>A: Join us at #shrine and make sure you RSVP on the form above!</p>
 </details>
 <details>
     <summary>Q: When will this launch?</summary>
-    <p>We dont have an ETA right now since this YSWS draft is freshly new and we haven't found a sponsor yet!</p>
+    <p>A: We dont have an ETA right now since this YSWS draft is freshly new and we haven't found a sponsor yet!</p>
 </details>
 <details>
-    <summary>Q: When will this launch?</summary>
-    <p>We dont have an ETA right now since this YSWS draft is freshly new and we haven't found a sponsor yet!</p>
+    <summary>Q: What kind merch can I buy</summary>
+    <p>A: It could be a figurine, hoodies, shirts, stationary, stickers, anything as long it's related to your character!</p>
 </details>
 <details>
     <summary>Q: How many hours do I have to work?</summary>
-    <p>We haven't set how many hours. It might be 5 or 6 hours. Although, this might change, please take it with a grain of salt!</p>
+    <p>A: We haven't set how many hours. It might be 5 or 6 hours. Although, this might change, please take it with a grain of salt!</p>
 </details>
 </div>
 
@@ -49,13 +47,15 @@
         <p>Email</p>
     </a>
 </div>
-</body>
+
+</div>
 
 
 <style>
-    body {
-        background-color: aquamarine;
+    :global(.all) {
+        background-color: 	#4e2d6b;
         text-align: center;
+        color: white;
     }
 
     button {
@@ -67,6 +67,22 @@
         cursor: pointer;
         font-size: 16px;
         transition: background-color 0.3s;
+    }
+
+    p {
+        margin: 1rem 0;
+    }
+
+    .all {
+        padding: 2rem;
+    }
+
+    hr {
+    margin: 2rem 0;
+    }
+
+    details {
+    margin-bottom: 1rem;
     }
 
 </style>
