@@ -1,4 +1,6 @@
 <title>Shrine</title>
+<body>
+<div class=info>
 <h1>Shrine</h1>
 <!---TBA because we dont know.....goog-->
 <p>Make and code a project about your favorite fictional character, get a grant to buy merch of your character!</p>
@@ -8,8 +10,11 @@
     <button>RSVP!</button>
 </a>
  </div>
+</div>
 
-<div>
+<hr>
+
+<div class=faq>
 <details>
     <summary>Q: So, what is Shrine?</summary>
     <p>A: Shrine is a YSWS where you build a project about your favorite fictional character! It could be anything! Like, a website about your character, a Visual Novel with RenPy, anything related to that character! After you submit and we check your project, you'll recieve a grant to go buy merch of your favorite character!</p>
@@ -32,6 +37,7 @@
 </details>
 </div>
 
+<hr>
 
 <div>
     <h3>Contacts</h3>
@@ -43,5 +49,24 @@
         <p>Email</p>
     </a>
 </div>
+</body>
 
 
+<style>
+    body {
+        background-color: aquamarine;
+        text-align: center;
+    }
+
+    button {
+        padding: 15px 25px;
+        background-color: #68539c;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+
+</style>
