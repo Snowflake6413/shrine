@@ -1,6 +1,7 @@
+
 <div class="all">
 <title>Shrine</title>
-<h1>Shrine</h1>
+<h1>Shrine!</h1>
 <!---TBA because we dont know.....goog-->
 <p>Make and code a project about your favorite fictional character, get a grant to buy merch of your character!</p>
 
@@ -52,14 +53,19 @@
 
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
     :global(.all) {
         background-color: 	#4e2d6b;
         text-align: center;
+        font-family: "Chewy";
+        font-weight: 400;
+        font-style: normal;
         color: white;
     }
 
     button {
-        padding: 15px 25px;
+        padding: 15px 40px;
         background-color: #68539c;
         color: white;
         border: none;
@@ -76,13 +82,32 @@
     .all {
         padding: 2rem;
     }
+    
+    h1 {
+        font-size: 4rem;
+    }
 
     hr {
-    margin: 2rem 0;
+        margin: 2rem 0;
     }
 
     details {
-    margin-bottom: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    summary {
+        padding: 15px 25px;
+        background-color: #68539c;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        list-style: none;
+    }
+
+    summary:hover {
+        background-color: #574380;
     }
 
 </style>
