@@ -16,7 +16,7 @@
 <div class="faq">
 <details>
     <summary>Q: So, what is Shrine?</summary>
-    <p>A: Shrine is a YSWS where you build a project about your favorite fictional character! It could be anything! Like, a website about your character, a Visual Novel with RenPy, anything related to that character! After you submit and we check your project, you'll receive a grant to go buy merch of your favorite character!</p>
+    <p>A: Shrine is a YSWS where you build a project (Must be tracked with Hackatime) about your favorite fictional character! It could be anything! Like, a website about your character, a Visual Novel with RenPy, anything related to that character! After you submit and we check your project, you'll receive a grant to go buy merch of your favorite character!</p>
 </details>
 <details>
     <summary>Q: How do I join?</summary>
@@ -27,12 +27,20 @@
     <p>A: We dont have an ETA right now since this YSWS draft is freshly new and we haven't found a sponsor yet!</p>
 </details>
 <details>
-    <summary>Q: What kind merch can I buy</summary>
+    <summary>Q: What kind of merch can I buy?</summary>
     <p>A: It could be a figurine, hoodies, shirts, stationary, stickers, anything as long it's related to your character!</p>
 </details>
 <details>
     <summary>Q: How many hours do I have to work?</summary>
     <p>A: We haven't set how many hours. It might be 5 or 6 hours. Although, this might change, please take it with a grain of salt!</p>
+</details>
+<details>
+    <summary>Q: Any policy about AI usage?</summary>
+    <p>A: Please do not vibe-code your project! You can use AI to get help on your project but please dont vibe code it!</p>
+</details>
+<details>
+    <summary>Q: Is there anything I can contribute to this YSWS?</summary>
+    <p>A: Yes! You can spread the word about this. If you want to co-org this YSWS, free feel to DM me on the Slack or email me!</p>
 </details>
 </div>
 
